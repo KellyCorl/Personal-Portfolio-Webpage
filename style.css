@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#navbar{
+    top: 0px;
+    background-color: rgb(216, 231, 231);
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 800px;
+}
+
+li{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(62, 122, 122);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color: rgb(48, 182, 182);
+}
+
+#welcome-section{
+    text-align: center;
+    padding-top: 180px;
+    background-color: rgb(216, 231, 231);
+    padding-bottom: 180px;  
+
+}
+
+h4{
+    color: rgb(48, 173, 65);    
+}
+
+#projects {
+    padding-top: 60px;
+    margin-top: -60px;
+    background-color: #fcfcfc;
+    padding-bottom: 50px;
+}
+
+#projects h1 {
+    text-align: center;
+    color: #008080;
+    font-weight: normal;
+    margin: 40px;
+}
+
+.project {
+    text-decoration: none;
+    color: #3faaaa;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid rgb(136, 181, 196);
+    height: 230px;
+    width: 300px;
+    margin: 40px 80px;
+   
+}
+
+.project-pic {
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid rgb(120, 168, 184);
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+#contact {
+    background: rgb(170, 231, 166);
+    padding-bottom: 100px;
+}
+
+.header {
+    padding: 100px 0 90px;
+}
+
+.contact-details {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 35px 45px 35px;
+    list-style-type: none;
+    border: 2px solid rgb(125, 168, 129);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #ccebe2;
+    color: #008080;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    background: rgb(9, 62, 110);
+    color: white;
+    line-height: 40px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
